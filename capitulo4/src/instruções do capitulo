@@ -1,0 +1,12 @@
+Instruções de controle: parte 1;
+operadores de atribuição ++ e --
+
+Objetivos
+Neste capítulo, você irá:
+--Aprender técnicas básicas de resolução de problemas.
+--Desenvolver algoritmos por meio do processo de refinamento passo a passo de cima para baixo.
+--Usar as instruções de seleção if e if…else para escolher entre ações alternativas.
+--Usar a instrução de repetição while para executar instruções em um programa repetidamente.
+--Utilizar repetição controlada por contador e repetição controlada por sentinela.
+--Usar o operador de atribuição composto e os operadores de incremento e decremento.
+--Entender a portabilidade dos tipos de dados primitivos.
