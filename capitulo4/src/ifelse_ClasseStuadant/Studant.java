@@ -1,3 +1,5 @@
+package ifelse_ClasseStuadant;
+
 public class Studant {
     private String name;
     private double average;
@@ -22,7 +24,7 @@ public class Studant {
         return name;
     }
 
-    // define a média de Studant
+    // define a média de ifelse_ClasseStuadant.Studant
     public void setAverage(double average){
         if(average > 0.0){
             if(average <100.0){

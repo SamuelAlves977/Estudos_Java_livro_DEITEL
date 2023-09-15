@@ -1,3 +1,7 @@
+package ifelse_ClasseStuadant;
+
+import ifelse_ClasseStuadant.Studant;
+
 public class StudantTest {
     public static void main(String []args){
         Studant account1 = new Studant("samuel", 90);
