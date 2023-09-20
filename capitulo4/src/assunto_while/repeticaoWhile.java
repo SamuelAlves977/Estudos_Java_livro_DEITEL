@@ -1,4 +1,4 @@
-package assuntos.java.capitulo4;
+package assunto_while;
 
 public class repeticaoWhile {
     public static void main(String[]args){
