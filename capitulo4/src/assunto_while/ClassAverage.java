@@ -40,8 +40,5 @@ public class ClassAverage {
         //retornando os valores na tela
         System.out.println("Total of all 10 grade is: " + total);
         System.out.println("Class Average is: " + average);
-        System.out.println(Integer.MAX_VALUE + " - " + Integer.MIN_VALUE);
-
-        Random valorAleatório = new Random();
     }
 }
