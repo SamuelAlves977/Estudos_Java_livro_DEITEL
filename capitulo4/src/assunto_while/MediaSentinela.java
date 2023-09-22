@@ -9,21 +9,23 @@ public class MediaSentinela {
         int total=0;
         int counter =0;
 
-        System.out.println("Valor da primeira nota nota");
+        System.out.print("Valor da primeira nota nota: ");
         int grade = read.nextInt();
 
         while (grade != -1){
-            total =+ grade;
+            total = total + grade;
             counter ++;
 
-            System.out.print("Enter grade or -1 to quit");
+            System.out.print("Enter grade or -1 to quit: ");
             grade = read.nextInt();
         }
         if(counter != 0){
             double media = (double)total/counter;
-            System.out.println("Total de notas:" +counter+" valor da media: " + media);
+            System.out.printf("%nTotal de %d grades entered is %d%n", counter, total);
+            System.out.printf("Valor da media: %.2f%n",media);
         }else {
-            System.out.println("No grades were entered");
+            System.out.print("No grades were entered");
         }
     }
 }
+
